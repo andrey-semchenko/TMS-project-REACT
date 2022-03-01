@@ -5,7 +5,7 @@ import UsersFilter from '../../components/UsersFilter'
 import UsersList from "../../components/UsersList";
 
 import { useFormik } from "formik";
-import { InitialValuesProps } from "./Form.types";
+import { InitialValuesProps } from "./UsersContainer.types";
 import { User } from '../../api/users.types'
 import { getUsers } from "../../api/users";
 
