@@ -1,3 +1,3 @@
-import { UsersPropsParamsApi } from "../../api/usersProps";
+import { UsersRequestParams } from "../../api/users.types";
 
-export interface InitialValuesProps extends UsersPropsParamsApi {}
+export interface InitialValuesProps extends UsersRequestParams {}

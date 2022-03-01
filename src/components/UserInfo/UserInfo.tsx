@@ -6,7 +6,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import DialogContentText from '@mui/material/DialogContentText';
 
 import { sxStyleUserInfo, sxStyleUserAvatar } from "./UserInfoStyle";
-import { UserInfoPropsType } from "./user.info.props.type";
+import { UserInfoPropsType } from "./UserInfo.types";
 
 const UserInfo: React.FC<UserInfoPropsType> = ( { user, openInfo, closeInfo} ) => {
 

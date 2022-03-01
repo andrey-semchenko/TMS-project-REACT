@@ -1,4 +1,4 @@
-import { UserItemPropsType } from "../UserItem/user.item.props.type";
+import { UserItemPropsType } from "../UserItem/UserItem.typex";
 
 export interface UserInfoPropsType extends UserItemPropsType {
     openInfo: any,

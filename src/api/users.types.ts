@@ -86,3 +86,10 @@ export interface User {
     picture: UPicture;
     nat: string;
 };
+
+export interface UsersRequestParams {
+    gender: string,
+    nat: string,
+    results: number,
+    page: number,
+}

@@ -4,7 +4,7 @@ import List from '@mui/material/List';
 
 import UserItem from "../UserItem";
 
-import { UserListPropsType } from "./users.list.props.type";
+import { UserListPropsType } from "./UsersList.types";
 
 
 const UsersList: React.FC<UserListPropsType> = ( {arrayUsers} ) => {
