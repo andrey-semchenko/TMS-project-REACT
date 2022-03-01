@@ -1,4 +1,4 @@
-import { InitialValuesProps } from '../../containers/Form/Form.types'
+import { InitialValuesProps } from '../../containers/UsersContainer/UsersContainer.types'
 
 export interface UsersFilterProps {
     data: InitialValuesProps,
