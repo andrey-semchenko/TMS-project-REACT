@@ -8,7 +8,7 @@ import NatSelect from '../NationalitySelect';
 import Pages from "../Pages";
 import ResultSelect from "../ResultSelect";
 
-import { UsersFilterProps } from './users.filter.props.type';
+import { UsersFilterProps } from './UsersFilter.types';
 import { sxStyleFilter } from "./UsersFilterStyle";
 
 

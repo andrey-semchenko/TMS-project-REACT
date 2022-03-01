@@ -9,7 +9,7 @@ import ListItemText from '@mui/material/ListItemText';
 
 import UserInfo from '../UserInfo';
 
-import { UserItemPropsType } from './user.item.props.type'
+import { UserItemPropsType } from './UserItem.typex'
 
 
 const UserItem: React.FC<UserItemPropsType> = ( {user} ) => {

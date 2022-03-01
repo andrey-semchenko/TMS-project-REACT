@@ -3,12 +3,9 @@ import Typography from '@mui/material/Typography';
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 
-interface PagesPropsType {
-    page: number,
-    onChange : any,
-}
+import { PagesPropsTypes } from './Pages.types'
 
-const Pages: React.FC <PagesPropsType> = ( {page, onChange} ) => {
+const Pages: React.FC <PagesPropsTypes> = ( {page, onChange} ) => {
 
   return (
     <Stack spacing={2}>

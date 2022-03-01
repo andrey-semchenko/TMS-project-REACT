@@ -5,7 +5,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-import { NatSelectPropsType } from './nationality.select.porps.types';
+import { NatSelectTypes } from './NationalitySelect.types';
 
 const nationality: string[] = [
     "AU", "BR", "CA", "CH", 
@@ -15,7 +15,7 @@ const nationality: string[] = [
     "US",
   ];
   
-  const NatSelect: React.FC<NatSelectPropsType> = ( {nat, onChange} ) => {
+  const NatSelect: React.FC<NatSelectTypes> = ( {nat, onChange} ) => {
     return (
       <Box sx={{ minWidth: 100 }}>
         <FormControl sx ={{ width: 120 }} >

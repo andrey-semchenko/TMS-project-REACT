@@ -5,7 +5,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-import { ResultSelectPropsType } from './result.select.props.type';
+import { ResultSelectPropsType } from './ResultSelect.types';
 
 const resultsData: number[] = [2, 4, 8, 12, 16, 20, 24, 28, 32];
 
