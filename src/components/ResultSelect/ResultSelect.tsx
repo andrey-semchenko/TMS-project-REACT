@@ -14,10 +14,10 @@ const ResultSelect: React.FC<ResultSelectPropsType> = ( {results, onChange} ) =>
     return (
       <Box sx={{ minWidth: 100 }}>
         <FormControl  sx ={{ width: 120 }}>
-          <InputLabel id="demo-simple-select-label">Result</InputLabel>
+          <InputLabel id="results-select-label">Result</InputLabel>
           <Select
-            labelId="demo-simple-select-label"
-            id="demo-simple-select"
+            labelId="results-select-label"
+            id="results-select"
             value={results}
             label="Result"
             onChange={onChange}
