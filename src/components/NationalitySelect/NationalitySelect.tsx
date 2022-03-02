@@ -19,7 +19,7 @@ const nationality: string[] = [
     return (
       <Box sx={{ minWidth: 100 }}>
         <FormControl sx ={{ width: 120 }} >
-          <InputLabel id="demo-simple-select-label">Nationality</InputLabel>
+          <InputLabel id="nationality-select-label">Nationality</InputLabel>
           <Select
             sx ={{m:0}}
             labelId="nationality-select-label"
