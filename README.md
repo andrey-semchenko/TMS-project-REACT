@@ -1,6 +1,7 @@
 # React Project TMS
 
-Ссылка на [React Project APP](https://andrey-semchenko.github.io/TMS-project-REACT/)
+Ссылка на [React Project APP](https://andrey-semchenko.github.io/TMS-project-REACT/).
+
 Данный проект является дипломный по завершению блока React.
 Концепция работы заключается в следующем.
 
