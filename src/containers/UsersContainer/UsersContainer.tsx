@@ -22,8 +22,8 @@ const Form: React.FC = () => {
     });
 
     const [users, setUsers] = useState<User[]>([]);
-    const [errors, setErrors] = useState<String>("");
-    const [load, setLoad] = useState<Boolean>(false);
+    const [errors, setErrors] = useState<string>("");
+    const [load, setLoad] = useState<boolean>(false);
 
     const changeGender = (event: React.ChangeEvent<HTMLButtonElement>, newGender:string) => {
         if (newGender)
@@ -47,8 +47,8 @@ const Form: React.FC = () => {
         setLoad(true);
 
         getUsers(values)
-        .then( i => setUsers(i.results))
-        .catch( i => setErrors(i.message))
+        .then( response => setUsers(response.results))
+        .catch( error => setErrors(error.message))
         .finally( () => setLoad (false))
 
     }, [values]);
