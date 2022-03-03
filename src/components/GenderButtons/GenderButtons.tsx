@@ -20,11 +20,11 @@ const GenderButtons: React.FC<GenderButtonsProps> = ( {gender, onChange} ) => {
                 exclusive
             >
 
-                <ToggleButton value="Male">
+                <ToggleButton value="male">
                     <MaleIcon />
                 </ToggleButton>
 
-                <ToggleButton value="Female">
+                <ToggleButton value="female">
                     <FemaleIcon />
                 </ToggleButton>
             </ToggleButtonGroup>
