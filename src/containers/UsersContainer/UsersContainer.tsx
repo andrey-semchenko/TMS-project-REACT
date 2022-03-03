@@ -13,7 +13,7 @@ import { getUsers } from "../../api/users";
 const Form: React.FC = () => {
     const {values, setFieldValue} = useFormik<InitialValuesProps> ({
         initialValues: {
-            gender: "Male",
+            gender: "male",
             nat: "CA",
             page: 1,
             results: 8,
