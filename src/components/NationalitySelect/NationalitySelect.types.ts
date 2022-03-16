@@ -1,4 +1,6 @@
+import { SelectChangeEvent } from '@mui/material/Select';
+
 export interface NatSelectTypes {
     nat: string,
-    onChange: any,
+    onChange: (event: SelectChangeEvent<string>) => void,
 }

@@ -8,6 +8,7 @@ import { useFormik } from "formik";
 import { InitialValuesProps } from "./UsersContainer.types";
 import { User } from '../../api/users.types'
 import { getUsers } from "../../api/users";
+import { SelectChangeEvent } from "@mui/material/Select";
 
 
 const Form: React.FC = () => {
@@ -25,7 +26,7 @@ const Form: React.FC = () => {
     const [errors, setErrors] = useState<string>("");
     const [load, setLoad] = useState<boolean>(false);
 
-    const changeGender = (event: React.MouseEvent<HTMLElement>, newGender:string) => {
+    const changeGender =  (event: React.MouseEvent<HTMLElement>, newGender: string) => {
         if (newGender)
         setFieldValue("gender", newGender);
     };
@@ -34,11 +35,11 @@ const Form: React.FC = () => {
         setFieldValue("page", newPage)
     };
 
-    const changeResult = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const changeResult = (event: SelectChangeEvent<number>) => {
         setFieldValue("results", event.target.value)
     };
 
-    const changeNational = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const changeNational = (event: SelectChangeEvent<string>) => {
         setFieldValue("nat", event.target.value)
     };
 
