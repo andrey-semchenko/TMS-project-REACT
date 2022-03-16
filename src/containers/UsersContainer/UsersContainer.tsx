@@ -25,12 +25,12 @@ const Form: React.FC = () => {
     const [errors, setErrors] = useState<string>("");
     const [load, setLoad] = useState<boolean>(false);
 
-    const changeGender = (event: React.ChangeEvent<HTMLButtonElement>, newGender:string) => {
+    const changeGender = (event: React.MouseEvent<HTMLElement>, newGender:string) => {
         if (newGender)
         setFieldValue("gender", newGender);
     };
 
-    const changePage = (event: React.ChangeEvent<HTMLSelectElement>, newPage:number) => {
+    const changePage = (event: React.ChangeEvent<unknown>, newPage:number) => {
         setFieldValue("page", newPage)
     };
 

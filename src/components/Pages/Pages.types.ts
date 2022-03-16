@@ -1,4 +1,4 @@
 export interface PagesPropsTypes {
     page: number,
-    onChange : any,
+    onChange : (event: React.ChangeEvent<unknown>, value: number ) => void,
 };

@@ -2,8 +2,8 @@ import { InitialValuesProps } from '../../containers/UsersContainer/UsersContain
 
 export interface UsersFilterProps {
     data: InitialValuesProps,
-    changeGender: (event: React.ChangeEvent<HTMLButtonElement>, newGender: string) => void,
+    changeGender: (event: React.MouseEvent<HTMLElement>, newGender: string) => void,
     changeNational: (event: React.ChangeEvent<HTMLSelectElement>) => void,
     changeResult: (event: React.ChangeEvent<HTMLSelectElement>) => void,
-    changePage: (event: React.ChangeEvent<HTMLSelectElement>, newPage: number) => void,
+    changePage: (event: React.ChangeEvent<unknown>, newPage: number) => void,
 }
